@@ -9,6 +9,7 @@
   <link href='/fonts/greatvibes/greatvibes.css' rel='stylesheet'>
   <meta name="viewport" content=
   "width=device-width, initial-scale=1.0, user-scalable=yes">
+  <script src="manualslideshow.js"></script>
 </head>
 <body>
   <div id="slider"></div>
@@ -71,8 +72,12 @@
     superb, stretching for miles over open, rolling Devon
     countryside.</p>
     <div class="gapdiv"></div>
-    <p>SLIDESHOW GOES HERE</p>
     <div id="manualslideshow"></div>
+    <script>
+        const app = Elm.ManualSlideshow.init({
+            node: document.getElementById('manualslideshow')
+        });
+    </script>
     <p>Inside, the property is sumptuously furnished in a
     comfortable and traditional style, with beautifully furnished
     bedrooms and deluxe, modern en-suites. This house is the
@@ -145,5 +150,4 @@
   window.onload = init;
   </script>
 </body>
-  <script src="manualSlideshow.js"></script>
 </html>

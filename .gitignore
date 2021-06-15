@@ -1,4 +1,7 @@
 *.sw*
-venv/
-testserver.py
+dist/venv/
+dist/testserver.py
 tmpTodos
+manualslideshow/elm-stuff/
+manualslideshow/manualslideshow.js
+manualslideshow/manualslideshow.large.js
