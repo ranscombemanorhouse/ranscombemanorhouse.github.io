@@ -1,8 +1,7 @@
 *.sw*
-dist/venv/
-dist/testserver.py
+venv/
+testserver.py
 tmpTodos
-manualslideshow/elm-stuff/
-manualslideshow/manualslideshow.js
-manualslideshow/manualslideshow.large.js
-dist/droneview.mp4
+elmSlideshow/elm-stuff/
+elmSlideshow/manualslideshow.js
+elmSlideshow/manualslideshow.large.js
