@@ -44,11 +44,8 @@ images =
     Array.fromList
         [ ( "18.jpg", "Ornamental parterre in front of house" )
         , ( "ranscombe3dView.jpg", "3D view of Ranscombe interior" )
-        , ( "05.jpg", "Rose bedroom" )
-        , ( "06.jpg", "Wisteria bedroom" )
         , ( "07.jpg", "Wisteria bedroom" )
         , ( "08.jpg", "Wisteria bedroom" )
-        , ( "09.jpg", "Iris bedroom" )
         , ( "10.jpg", "View from Rose bathroom window" )
         , ( "11.jpg", "Sitting room" )
         , ( "12.jpg", "Dining room" )

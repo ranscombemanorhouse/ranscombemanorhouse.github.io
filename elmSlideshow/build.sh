@@ -13,4 +13,4 @@ echo "Compiled size:$(wc $js -c) bytes  ($js)"
 echo "Minified size:$(wc $min -c) bytes  ($min)"
 echo "Gzipped size: $(gzip $min -c | wc -c) bytes"
 
-cp $min ../dist/
+cp $min ..
