@@ -43,6 +43,7 @@ images : Array.Array ( String, String )
 images =
     Array.fromList
         [ ( "18.jpg", "Ornamental parterre in front of house" )
+        , ( "ranscombe3dView.jpg", "3D view of Ranscombe interior" )
         , ( "05.jpg", "Rose bedroom" )
         , ( "06.jpg", "Wisteria bedroom" )
         , ( "07.jpg", "Wisteria bedroom" )
