@@ -5,6 +5,16 @@ body {
     padding: 0;
 }
 
+#prizesdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hidden{
+    display: none;
+}
+
 #winner {
     font-weight: bold;
 }
@@ -28,7 +38,7 @@ body {
 
 .roomdescription {
     margin-left: 1em;
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 120%;
     margin-bottom: 10%;
 }
@@ -40,7 +50,7 @@ body {
 .pagesubtitlediv {
     width: 100%;
     text-align: center;
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 150%;
     margin-top: 0.5em;
 }
@@ -54,7 +64,7 @@ and (min-width : 600px) {
     margin-top: calc(40px - 0.3vw);
 }
 .pagelink {
-    font-family: 'Great Vibes', Georgia, serif;
+    font-family: 'Great Vibes';
     text-decoration: none;
     font-size: calc(20px + 1.7vw);
     padding-left: 0.2em;
@@ -68,7 +78,7 @@ and (min-width : 600px) {
 .title {
     width: 100%;
     text-align: center;
-    font-family: 'Great Vibes', Georgia, serif;
+    font-family: 'Great Vibes';
     font-size: calc(5px + 7vw);
     position: relative;
     margin-top: 10vw;
@@ -76,7 +86,7 @@ and (min-width : 600px) {
 .pagetitlediv {
     width: 100%;
     text-align: center;
-    font-family: 'Great Vibes', Georgia, serif;
+    font-family: 'Great Vibes';
     font-size: calc(5px + 4vw);
 }
 #topgap {
@@ -115,7 +125,7 @@ and (max-width : 601px) {
     margin-top: 13%;
 }
 .pagelink {
-    font-family: 'Great Vibes', Georgia, serif;
+    font-family: 'Great Vibes';
     text-decoration: none;
     font-size: 180%;
     padding-left: 0.2em;
@@ -129,13 +139,13 @@ and (max-width : 601px) {
 .pagetitlediv {
     width: 100%;
     text-align: center;
-    font-family: 'Great Vibes', Georgia, serif;
+    font-family: 'Great Vibes';
     font-size: 170%;
 }
 .title {
     width: 100%;
     text-align: center;
-    font-family: 'Great Vibes', Georgia, serif;
+    font-family: 'Great Vibes';
     font-size: 300%;
     position: relative;
     margin-top: 90px;
@@ -178,14 +188,14 @@ and (max-width : 601px) {
 
 p {
     margin-right: 1em;
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 120%;
     margin-left: 1em;
 }
 
 #fsa {
     margin-right: 1em;
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 120%;
     margin-left: 1em;
 }
@@ -196,7 +206,7 @@ p {
 }
 
 .blurb {
-    max-width: 54em;
+    max-width: 55em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -288,7 +298,7 @@ p {
     padding: 8px 12px;
     position: absolute;
     bottom: 10px;
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
 }
 
 /* The dots/bullets/indicators */
@@ -308,7 +318,7 @@ p {
 }
 
 .toplinkspan {
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
 }
 
 /* Fading animation */
@@ -355,19 +365,19 @@ p {
 }
 
 h3 {
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 120%;
     margin-left: 1rem;
 }
 
 h2 {
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 150%;
     margin-left: 1rem;
 }
 
 h1 {
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 160%;
     margin-left: 1rem;
 }
@@ -428,7 +438,7 @@ h1 {
 }
 
 .bottomdiv {
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     font-size: 80%;
     text-align: center;
     margin-bottom: 3em;
@@ -447,7 +457,7 @@ h1 {
     float: right;
     color: black;
     background-color: rgba(255,255,255,0.6);
-    font-family: 'Alegreya', Georgia, serif;
+    font-family: 'Alegreya';
     padding-left: 1%;
     padding-right: 1%;
     font-size: calc(14px + 0.5vw);
