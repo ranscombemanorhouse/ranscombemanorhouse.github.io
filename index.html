@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <meta charset="UTF-8">
   <meta name="generator" content=
   "HTML Tidy for HTML5 for Linux version 5.6.0">
   <title>Ranscombe Manor</title>
+  <meta name="description" content=
+  "Ranscombe Manor House is a large family holiday home in the heart of the South Hams, Devon.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="font" href=
+  "/fonts/greatvibes/RWmMoKWR9v4ksMfaWd_JN9XLiaQ6DQ.woff2">
+  <link rel="preload" as="font" href=
+  "/fonts/greatvibes/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2">
+  <link rel="preload" as="style" href=
+  "/fonts/greatvibes/greatvibes.css">
+  <link rel="preload" as="image" href=
+  "/topslideshow/02parterre.jpg">
   <link href='/fonts/alegreya/alegreya.css' rel='stylesheet'>
   <link href='/fonts/greatvibes/greatvibes.css' rel='stylesheet'>
   <meta name="viewport" content=
@@ -41,9 +52,9 @@
     <p>A large family holiday home in the heart of the South Hams,
     Devon.</p>
     <p id="winner">Booking.com Guest Review Award Winner four years
-    running, in 2017, 2018, 2019 and 2020.</p><div id=prizesdiv><img alt=
-    "Booking prize 2020" class="prizephoto" src=
-    "/bookingCom2020.jpg"> <img alt=
+    running, in 2017, 2018, 2019 and 2020.</p>
+    <div id="prizesdiv"><img alt="Booking prize 2020" class=
+    "prizephoto" src="/bookingCom2020.jpg"> <img alt=
     "Eviivo outstanding host award shortlist 2019" class=
     "prizephoto" src="/eviivoShortlist.jpg"></div>
     <p>Ranscombe Manor House is a luxurious self-catering holiday
@@ -120,7 +131,8 @@
     Ranscombe Manor are spellbound by the stunning setting and find
     it hard to leave.</p>
     <p>FOR MORE INFORMATION PLEASE CALL THE OWNER AMANDA LUBRANI
-    DIRECT ON 07903 655646 OR CONTACT <a href=https://coastalholidays.co.uk>COASTAL HOLIDAYS</a>.</p>
+    DIRECT ON 07903 655646 OR CONTACT <a href=
+    "https://coastalholidays.co.uk">COASTAL HOLIDAYS</a>.</p>
     <p>Note that the minimum stay is 4 nights.</p><img alt=
     "The pond at Ranscombe" class="smallimage" src=
     "/mainGarden.jpg"></div>
@@ -132,14 +144,12 @@
 
     Ranscombe Manor, Kingsbridge, Devon, TQ7 2DP
   </div>
-  <div id=hidden>
-  </div>
-</body>
-<script>
-// This is to get the slideshow images into the cache as quickly as
-// possible, after the rest of the page has loaded.
-const hidden = document.getElementById("hidden")
-const images =
+  <div id="hidden"></div>
+  <script>
+  // This is to get the slideshow images into the cache as quickly as
+  // possible, after the rest of the page has loaded.
+  const hidden = document.getElementById("hidden")
+  const images =
     ["44.jpg",
      "45.jpg",
      "ranscombe3dView.jpg",
@@ -181,10 +191,11 @@ const images =
      "25.jpg",
      "26.jpg",
      "03.jpg"]
-for (let i = 0; i < images.length; i++) {
+  for (let i = 0; i < images.length; i++) {
     const im = document.createElement("img")
     im.src = "/clickslideshow/" + images[i]
     hidden.appendChild(im)
-}
-</script>
+  }
+  </script>
+</body>
 </html>
