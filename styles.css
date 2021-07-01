@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+.omuchadu {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #004466;
+    margin: 4rem;
+    font-family: monospace;
+}
+
 #prizesdiv{
     display: flex;
     justify-content: center;
